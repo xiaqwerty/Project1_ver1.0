@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MY通讯录</title>
+    <script src="myJS.js"></script>
+    <style>
+        body
+        {
+            font-family:"华文细黑";
+            background:url("https://ss3.bdstatic.com/lPoZeXSm1A5BphGlnYG/skin/66.jpg") no-repeat;
+            background-size: 100%;
+        }
+        input
+        {
+            position:absolute;
+            padding-left:100px;
+            padding-right:100px;
+            background-color:rgb(30, 144, 255);
+        }
+        #myTable
+        {
+            border-collapse: collapse;
+            width:80%;
+            margin:10px auto;
+        }
+
+        #myTable td,#myTable th
+        {
+            font-size:1em;
+            width:50%;
+            border: 1px solid black;
+            padding:10px;
+        }
+        #myTable th
+        {
+            font-size:1.2em;
+            text-align: left;
+            padding:10px;
+            background-color:rgb(0,255,0);
+            color:rgb(255,255,255);
+        }
+        #myTable td
+        {
+            color:solid black;
+            background-color: rgb(255,218,185);
+        }
+        #bookTitle{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table id="myTable">
+        <tr>
+            <br>
+            <h1 id="bookTitle">个人通讯录</h1>
+            <br>
+            <input type="submit" value="添加" onclick="gotoAddPerson()" style="left:550px ">
+            <input type="submit" value="编辑" style="left:800px">
+            <input type="submit" value="删除" style="left:1050px">
+            <br>
+            <th>姓名</th>
+            <th>联系方式</th>
+        </tr>
+        <tr>
+            <td>test.A</td>
+            <td>010-15413245</td>
+        </tr>
+        <tr>
+            <td>test.B</td>
+            <td>10086</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>

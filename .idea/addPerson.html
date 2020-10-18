@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="StyleSheet" href="login_style.css">
+    <title>添加至通讯录</title>
+    <script src="myJS.js"></script>
+</head>
+<body>
+<div id="box">
+    <div id="title"><h1>添加联系人信息</h1></div>
+    <div id="add_box">
+        <p>姓名：<input class="input_content" type="text" name="name" ></p>
+        <p>电话：<input class="input_content" type="text" name="phoneNumber" ></p>
+        <p>邮箱：<input class="input_content" id="email" type="text" name="email" ></p>
+        <p>住址：<input class="input_content" type="text" name="address" ></p>
+        <p>QQ：<input class="input_content" type="text" name="QQ" ></p>
+        <input type="submit" class="add_button" value="添加" onclick="checkInput()">
+        <input type="submit" class="add_button" value="取消" onclick="gotoMyAddressBook()">
+    </div>
+
+</div>
+</body>
+</html>
